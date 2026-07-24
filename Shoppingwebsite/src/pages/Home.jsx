@@ -7,18 +7,20 @@ function Home() {
   
   return (
     <>
-    <div className='home' style={{backgroundImage: `url(${hero})` }}>
-    <div  >
+    
+     <div className='background'>
+ 
+    
       <section className="hero-section">
         <h1>Welcome to Shop Nepal</h1>
         <p>Discover authentic Nepali products, handcrafted goods, clothing, and vibrant collections.</p>
-        
+         <div className='firstbuttons'>
+      <Link to="/collection"><button  className='btn'>SHOP COLLECTION</button></Link>
+      <Link to="about"><button className='btn'>About us</button></Link>
+    </div>
       </section>
-    </div>
-    <div>
-      <Link to="/collection"><button>SHOP COLLECTION</button></Link>
-      <Link to="about"><button>About us</button></Link>
-    </div>
+    
+   
     </div>
     <div><h2>Our Categories</h2>
     <p>Explore timeless cloting made for ecery occasion</p>

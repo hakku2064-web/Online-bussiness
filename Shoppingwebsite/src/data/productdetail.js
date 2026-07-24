@@ -6,7 +6,7 @@ const productdetail=[{
     price:2100,
     afterdiscounted:1900,
     image: kurthaImg,
-    size:[" M ", " L "],
+    size:[" M ","&"," L "],
 },{id:2,
     name:"Lehenga",
     price:2000,
