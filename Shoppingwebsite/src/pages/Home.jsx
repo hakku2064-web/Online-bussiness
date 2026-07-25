@@ -22,12 +22,14 @@ function Home() {
     
    
     </div>
-    <div><h2>Our Categories</h2>
+<div className='middle-part'>
+      <div><h2>Our Categories</h2>
     <p>Explore timeless cloting made for ecery occasion</p>
     <button>Women</button>
 
     <button>Men</button></div><br></br>
     <p><Productcard/></p>
+</div>
     <p>JUST IN</p>
     <h4>New Arrivals</h4>
     <p>Fresh styles designed for comfort, confidence, and culture.</p>
