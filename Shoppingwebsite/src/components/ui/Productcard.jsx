@@ -6,6 +6,7 @@ function buyNow(){
     alert("added to cart")
 }
 
+
   return (
     
        <>
