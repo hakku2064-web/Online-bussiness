@@ -20,7 +20,8 @@ function Cart() {
         alert(`Total ${initialCount} item bought of Rs. ${subtotal}`)
     }
   return (
-    <div className='cart-page'>
+ <div className='cart-head'>
+       <div className='cart-page'>
         <h1 className='cart-heading'>Shooping Cart</h1>
         <div className='cart-container'>
             <div className='cart-item-list'>
@@ -61,6 +62,7 @@ function Cart() {
     
     </div>
   
+ </div>
    
      
    
