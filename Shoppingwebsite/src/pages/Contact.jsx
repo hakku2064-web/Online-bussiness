@@ -103,7 +103,7 @@ function Contact() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="message">MESSAGE *</label>
+            <label htmlFor="message">MESSAGE </label>
             <textarea
               rows="7"
               required
