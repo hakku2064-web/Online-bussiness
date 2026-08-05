@@ -35,7 +35,7 @@ function Cart() {
                 <div className='quantity-control'>
                     <div className="quantity-controls">
                     <button className="qtn-btn" onClick={sub}>-</button>
-                    <button className='qtn-btn'>{initialCount}</button>
+                  <span>  <button className='qtn-btn'>{initialCount}</button></span>
                     <button className="qtn-btn" onClick={add}>+</button>
                 </div>
                 <div className='item-subtotal'>
