@@ -1,0 +1,32 @@
+.about-page {
+    margin: 2rem;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.middle-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.quote-box {
+    background-color: #fff6ef;
+    color: #7a1f1f;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: -5px 0 0 rgb(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 2rem;
+}
