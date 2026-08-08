@@ -5,7 +5,7 @@ import Collection from "./pages/Collection";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
-
+import ProductDetail from "./components/ui/ProductDetail";
 
 function App() {
   return (
@@ -16,6 +16,9 @@ function App() {
     <Route path="collection" element={<Collection/>}/>
     <Route path="contact" element={<Contact/>}/>
     <Route path="cart" element={<Cart/>}/>
+
+    <Route path="/collection/product/:id" element={<ProductDetail/>}/>
+    <Route path="/product/:id" element={<ProductDetail/>}/>
     </Route>
    </Routes>
   )

@@ -19,8 +19,6 @@ function Home() {
     <div className='home'>
 
       <div className='background'>
-
-
         <div className="hero-section" style={{
           backgroundImage: `url(${images[currentImage]})`,
 

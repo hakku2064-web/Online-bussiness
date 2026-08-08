@@ -5,8 +5,26 @@
 .top-container{
     display: flex;
     flex-direction: row;
+    height: 80vh;
+    gap: 2rem;
     
 }
+.left-content{
+
+}
+.right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 12px;
+    border: 2px solid;
+
+}
+.top-img{
+    width: 70vh;
+    border-radius: 12px;
+   margin: 20px;
+height: 620px;}
 .middle-container{
     display: flex;
     flex-direction: row;

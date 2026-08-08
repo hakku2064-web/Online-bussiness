@@ -1,6 +1,7 @@
 import React from 'react'
 import productdetail from '../../data/productdetail'
 import "../ui/productcard.css"
+import { Link } from 'react-router'
 
 function Productcard() {
 function buyNow(){
@@ -16,7 +17,9 @@ function buyNow(){
             (<div key={productss.id} className='product-card'>
                 
                 <div className='product-image-container'>
+                   <Link to={`product/${productss.id}`}>
                     <img src={productss.image} className='product-image' />
+                    </Link>
                     </div>
                 <div className='product-info'>
                     <p className='product-title'>{productss.name}</p>
